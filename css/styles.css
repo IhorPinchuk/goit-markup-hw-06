@@ -588,6 +588,15 @@ button {
   fill: var(--address-footer-color);
 }
 
+.footer-caption-text {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1429;
+  color: var(--address-footer-color);
+  text-transform: uppercase;
+}
+
 .caption-form {
   display: flex;
   align-items: flex-end;
@@ -595,16 +604,6 @@ button {
 
 .caption-input-wraper {
   margin-right: 12px;
-}
-
-.caption-input-label {
-  display: block;
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1429;
-  color: var(--address-footer-color);
-  text-transform: uppercase;
 }
 
 .caption-input {
@@ -840,7 +839,10 @@ button {
 }
 
 .input-label {
+  display: block;
   margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.1667;
 }
 
 .input-wrapper {
@@ -929,6 +931,10 @@ button {
   margin-bottom: 20px;
 }
 
+.modal-check-field {
+  margin-bottom: 30px;
+}
+
 .check-text {
   display: flex;
   align-items: center;
@@ -938,7 +944,7 @@ button {
 }
 
 .modal-check-text {
-  text-decoration: underline;
+  margin-left: 5px;
   color: var(--accent-color);
 }
 
