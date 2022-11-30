@@ -958,10 +958,15 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: border-color var(--transition-duration-cubic);
 }
 
 .modal-check:checked + .check-text .check-icon {
   background-color: var(--accent-color);
   border: none;
   fill: var(--soc-icon-hover-color);
+}
+
+.modal-check:focus + .check-text .check-icon {
+  border-color: var(--accent-color);
 }
